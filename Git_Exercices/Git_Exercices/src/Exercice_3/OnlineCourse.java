@@ -7,8 +7,8 @@ public class OnlineCourse {
     private String id;
     private int duration;
     private String teacher;
-    //
-    private int nuenoIntInecesario;
+
+    private int nuenoIntInecesarioN;
     public OnlineCourse() {
     }
 
