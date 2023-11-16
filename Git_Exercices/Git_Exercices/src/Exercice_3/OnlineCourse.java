@@ -7,7 +7,7 @@ public class OnlineCourse {
     private String id;
     private int duration;
     private String teacher;
-
+    private int nuenoIntInecesario;
     public OnlineCourse() {
     }
 
@@ -17,7 +17,6 @@ public class OnlineCourse {
         this.duration = duration;
         this.teacher = teacher;
     }
-
     public OnlineCourse(OnlineCourse ocCopy){
         this.courseName = ocCopy.courseName;
         this.id = ocCopy.id;
