@@ -44,12 +44,12 @@ public class AdminCourse extends OnlineCourse{
     }
 
 
-    /*
+
     private void addDocument(String documentName){
         documents.add(documentName);
     }
     public ArrayList<String> getDocument(){
         return documents;
     }
-     */
+
 }
