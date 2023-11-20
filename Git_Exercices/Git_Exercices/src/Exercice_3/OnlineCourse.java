@@ -2,7 +2,7 @@ package Exercice_3;
 
 import java.util.Objects;
 
-public class OnlineCourse {
+public abstract class OnlineCourse {
     private String courseName;
     private String id;
     private int duration;
@@ -68,11 +68,13 @@ public class OnlineCourse {
                 ", teacher='" + teacher + '\'' +
                 '}';
     }
-
+    /*
     @Override
     public OnlineCourse clone() {
         return new OnlineCourse(this);
     }
+
+     */
 
     @Override
     public boolean equals(Object o) {
